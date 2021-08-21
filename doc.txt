@@ -1,0 +1,23 @@
+to create new application  
+1 init venv
+    pyton3 -m -venv fastapi-env
+    1.1 you need to active venv
+        run  activate.bat
+2 install fastiapi
+    pip install fastapi
+    pip install uvicorn
+
+3 run 
+     uvicorn  main:app --reload
+
+4 create requirements and add the packge you need and call this cmd
+    pip install -r requirements.txt
+
+ video yt https://www.youtube.com/watch?v=7t2alSnE2-I 2h43
+ 
+    link 
+    https://github.com/bitfumes/fastapi-course/blob/main/blog/repository/blog.py
+    https://github.com/tiangolo/fastapi
+    https://docs.sqlalchemy.org/en/14/orm/session_basics.html#adding-new-or-existing-items
+    https://fastapi.tiangolo.com/tutorial/response-model/
+    https://fastapi.tiangolo.com/tutorial/sql-databases/#create-the-database-tables
